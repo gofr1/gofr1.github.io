@@ -1,14 +1,36 @@
 @import url("additional.css");
 
-body {
-    background-color: black;
+@font-face {
+    font-family: 'Barlow';
+    src:  url('Barlow-Medium.ttf'),
+          url('Barlow-Regular.ttf');
 }
-h1 {
-    color: white;
+
+body, html {
+    background-color: #f8f8f2;
+    height: 100%;
+    font-family: 'Barlow', Fallback, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #f8f8f2;
 }
 p {
-    color: powderblue;
+    color: #ff79c6;
 }
 li {
-    color: whitesmoke
+    color: #ffb86c
 }
+
+p, ul {
+    padding-left: 20pt;
+    font-size: 16pt;
+}
+
+a {
+    background-color: #bd93f9;
+    color: #282a36;
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
