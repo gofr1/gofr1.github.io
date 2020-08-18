@@ -1,7 +1,42 @@
-h1 {
-    text-decoration: underline;
+.parallax0 {
+    /* The image used 
+    background-image: url('../images/index.png');*/
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-p, li {
-    padding-left: 20px;
-    font-size: 18px;
+
+.parallax1 {
+    /* The image used 
+    background-image: url('../images/a.jpeg');*/
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects p {
+    color: #50fa7b
+}
+
+.achivements b {
+    color: #50fa7b
+}
+
+.projects, .achivements, .overview {
+    background-color: #282a36;
+    padding: 20pt;
+    margin-left: -10pt;
+    margin-right: -5pt;
 }
