@@ -27,10 +27,15 @@ p, ul {
     font-size: 16pt;
 }
 
+ul.ach {
+    padding-left: 80pt;
+    color: #ff79c6;
+}
+
 a {
     background-color: #bd93f9;
     color: #282a36;
     padding: 0.5em 0.5em;
     text-decoration: none;
     text-transform: uppercase;
-  }
+}
