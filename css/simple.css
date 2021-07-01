@@ -39,3 +39,8 @@ a.txt {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+span.dotted { 
+    background: black;
+    border-bottom: 3px dotted;
+}
