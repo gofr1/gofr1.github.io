@@ -41,6 +41,5 @@ a.txt {
 }
 
 span.dotted { 
-    background: black;
-    border-bottom: 3px dotted;
+    border-bottom: 1px dotted;
 }
